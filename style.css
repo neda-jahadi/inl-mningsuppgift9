@@ -1,0 +1,162 @@
+
+    
+   #getKey, #viewButton{
+    width: 50%;
+}
+input {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+}
+.keyDiv, #viewResult, .viewButton{
+    text-align: center;
+}
+h2 {
+    color: brown;
+    font-style: italic;
+    text-align: center;
+}
+.body > * {
+    padding: 10px;
+    margin: 5px;
+    
+}
+button {
+    color: white;
+}
+.header {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    
+    top: 50%;
+    left: 50%;
+}
+
+
+.mainDiv {
+    display: grid;
+    grid-template-rows:  5em 1fr;
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    margin: 5px;
+    
+    
+}
+
+
+
+
+
+
+
+
+    
+
+#ShowAddResult, #viewResult {
+    font-size: 1.5em;
+    color: darkblue;
+    
+}
+.bookContainer {
+    font-size: 1.2em;
+    color: darkred;
+}
+.messageContainer {
+    font-size: 1.1em;
+    color: darkslateblue;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .keyMessage {
+        font-size: 1.1em;
+        color: green;
+    }
+    .mainDiv {
+        display: grid;
+        grid-template-rows:  5em 1fr 5em;
+        width: 100%;
+        height: 100%;
+        
+        
+        
+    }
+    
+    
+    .body {
+        display: grid;
+        grid-template-rows: 11em 20em 30em;
+        
+       
+    }
+    
+    .showDiv {
+        display: grid;
+        grid-template-rows: 4em 6em 5em 10em  10em 5em 5em 3em 1fr;
+    }
+    
+    button {
+        border-radius: 12px;
+        background-color: tomato;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+    
+      
+    
+    
+    
+}
+/* Large devices ( large phones and laptops, 600px and up) */
+@media only screen and (min-width: 601px)  {
+    input {
+        width: 20%;
+    }
+    .keyMessage {
+        font-size: 1.3em;
+        color: green;
+    }
+    button {
+        border-radius: 12px;
+        background-color: blueviolet;
+        font-size: 1.1em;
+        padding: 10px;
+    }
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+    .mainDiv {
+        display: grid;
+        grid-template-rows:  5em 1fr 5em;
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    
+    
+    .body {
+        display: grid;
+        grid-template-rows: 12em 17em 30em;
+       
+    }
+    
+    .showDiv {
+        display: grid;
+        grid-template-rows: 4em 6em 5em  10em 10em  5em 5em 3em 1fr;
+    }
+    
+    
+}
+.modifyClass {
+    color: lime;
+}
